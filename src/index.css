@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custome{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    background: rgba(30, 111, 138, 0.539);
+    z-index: 1;
+    mix-blend-mode: hard-light;
+}
+input{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
